@@ -5,6 +5,7 @@
     price: Faker::Number.number(4)
   )
   Category.create(title: Faker::Commerce.department)
+  FactoryGirl.create(:user)
 end
 
 counter = 1
